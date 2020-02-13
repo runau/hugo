@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tweet blog</title>
+    <link>https://encr.jp/blog/en/</link>
+    <description>Recent content on tweet blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>zzossig@gmail.com (zzossig)</managingEditor>
+    <webMaster>zzossig@gmail.com (zzossig)</webMaster>
+    <copyright>©{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Thu, 13 Feb 2020 12:41:12 +0900</lastBuildDate>
+    
+        <atom:link href="https://encr.jp/blog/en/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>hugoのテーマzzoの設定</title>
+        <link>https://encr.jp/blog/en/posts/20200213_lunch/</link>
+        <pubDate>Thu, 13 Feb 2020 12:41:12 +0900</pubDate>
+        <author>zzossig@gmail.com (zzossig)</author>
+        <guid>https://encr.jp/blog/en/posts/20200213_lunch/</guid>
+        <description>とりあえずzzo動くようになったけど、プロフィールとかもテンプレのままなので、修正する favicon設定 まず、favicon変える。 せっかく</description>
+      </item>
+      
+      <item>
+        <title>hugoのテーマをzzoに変えてみる</title>
+        <link>https://encr.jp/blog/en/posts/20200213_morning/</link>
+        <pubDate>Thu, 13 Feb 2020 08:05:28 +0900</pubDate>
+        <author>zzossig@gmail.com (zzossig)</author>
+        <guid>https://encr.jp/blog/en/posts/20200213_morning/</guid>
+        <description>ワードプレスもそうだけど、色々テンプレデザインが落ちてるのはいいよねww anankeいいんだけど、もう少しおしゃれにしたいから、可愛いのに変</description>
+      </item>
+      
+      <item>
+        <title>バイトメンター.com</title>
+        <link>https://encr.jp/blog/en/posts/20200212_night/</link>
+        <pubDate>Wed, 12 Feb 2020 12:16:09 +0900</pubDate>
+        <author>zzossig@gmail.com (zzossig)</author>
+        <guid>https://encr.jp/blog/en/posts/20200212_night/</guid>
+        <description>バイトメンター.com 今度linebotのハンズオン勉強会しようかな。と思って、何作ろうかなーと思ってたら、これ作りたくなった！ 頑張って作る</description>
+      </item>
+      
+      <item>
+        <title>hugo初期設定と戦ってみる</title>
+        <link>https://encr.jp/blog/en/posts/20200212_lunch/</link>
+        <pubDate>Wed, 12 Feb 2020 12:01:00 +0900</pubDate>
+        <author>zzossig@gmail.com (zzossig)</author>
+        <guid>https://encr.jp/blog/en/posts/20200212_lunch/</guid>
+        <description>hugo初期設定との戦い ミスドランチをしながら、30分で頑張る！ 記事出てこない問題 hugo new posts/20200212_morning.md して、記事ページは作られてるんだけど、 hugo server -D すると、</description>
+      </item>
+      
+      <item>
+        <title>hugoでつぶやきブログ作った</title>
+        <link>https://encr.jp/blog/en/posts/20200212_morning/</link>
+        <pubDate>Wed, 12 Feb 2020 08:42:53 +0900</pubDate>
+        <author>zzossig@gmail.com (zzossig)</author>
+        <guid>https://encr.jp/blog/en/posts/20200212_morning/</guid>
+        <description>ブログ作った Twitterで今日の積み上げとかやるけど、残らないし、twitterだと細かいこと書けないし、ブログにした やった事とか、困った</description>
+      </item>
+      
+    
+  </channel>
+</rss>

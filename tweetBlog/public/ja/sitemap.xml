@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://encr.jp/blog/ja/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://encr.jp/blog/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="js"
+                href="https://encr.jp/blog/js/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://encr.jp/blog/ja/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://encr.jp/blog/ja/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://encr.jp/blog/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="js"
+                href="https://encr.jp/blog/js/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://encr.jp/blog/ja/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://encr.jp/blog/ja/series/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://encr.jp/blog/en/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="js"
+                href="https://encr.jp/blog/js/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://encr.jp/blog/ja/series/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://encr.jp/blog/ja/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://encr.jp/blog/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="js"
+                href="https://encr.jp/blog/js/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://encr.jp/blog/ja/tags/"
+                />
+  </url>
+  
+</urlset>

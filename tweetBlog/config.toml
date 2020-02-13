@@ -1,5 +1,5 @@
 baseURL = "https://encr.jp/blog"
 languageCode = "en-us"
 title = "つぶやく感じで適当に書く技術ブログ"
-theme = "ananke"
+theme = "zzo"
 hasCJKLanguage = "true"

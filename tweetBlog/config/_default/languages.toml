@@ -1,0 +1,9 @@
+[en]
+  title = "tweet blog"
+  languageName = "English"
+  weight = 2
+
+[ja]
+  title = "つぶやく感じで適当に書く技術ブログ"
+  languageName = "japanese"
+  weight = 1

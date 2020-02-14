@@ -1,8 +1,8 @@
 baseURL = "https://encr.jp/blog/" # The URL of your site.
-title = "つぶやく感じで適当に書く技術ブログ" # Title of your site
+title = "tweet blog" # Title of your site
 theme = "zzo" # Name of Zzo theme folder in `themes/`.
 
-defaultContentLanguage = "js" # Default language to use (if you setup multilingual)
+defaultContentLanguage = "ja" # Default language to use (if you setup multilingual)
 defaultContentLanguageInSubdir = false # baseURL/en/, baseURL/kr/ ...
 hasCJKLanguage = true # Set `true` for Chinese/Japanese/Korean languages.
 
@@ -16,7 +16,7 @@ paginate = 13 # Number of items per page in paginated lists.
 rssLimit = 100
 
 enableGitInfo = false # When true, the modified date will appear on a summary and single page. Since GitHub info needs to be fetched, this feature will slow down to build depending on a page number you have
-googleAnalytics = ""
+googleAnalytics = "UA-96582353-7"
 
 [markup]
   [markup.goldmark]

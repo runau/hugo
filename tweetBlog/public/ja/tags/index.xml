@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on ?????????????????</title>
+    <title>Tags on tweet blog</title>
     <link>https://encr.jp/blog/ja/tags/</link>
-    <description>Recent content in Tags on ?????????????????</description>
+    <description>Recent content in Tags on tweet blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <managingEditor>zzossig@gmail.com (zzossig)</managingEditor>
-    <webMaster>zzossig@gmail.com (zzossig)</webMaster>
+    <managingEditor>blog@encr.jp (るな)</managingEditor>
+    <webMaster>blog@encr.jp (るな)</webMaster>
     <copyright>©{year}, All Rights Reserved</copyright>
     
         <atom:link href="https://encr.jp/blog/ja/tags/index.xml" rel="self" type="application/rss+xml" />

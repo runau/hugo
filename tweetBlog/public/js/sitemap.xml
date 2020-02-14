@@ -3,7 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://encr.jp/blog/js/</loc>
+    <loc>https://encr.jp/blog/</loc>
+    <lastmod>2020-02-13T20:19:51+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
@@ -17,12 +18,47 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="js"
-                href="https://encr.jp/blog/js/"
+                href="https://encr.jp/blog/"
                 />
   </url>
   
   <url>
-    <loc>https://encr.jp/blog/js/categories/</loc>
+    <loc>https://encr.jp/blog/posts/20200213_night/</loc>
+    <lastmod>2020-02-13T20:19:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://encr.jp/blog/posts/</loc>
+    <lastmod>2020-02-13T20:19:51+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://encr.jp/blog/posts/20200213_lunch/</loc>
+    <lastmod>2020-02-13T12:41:12+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://encr.jp/blog/posts/20200213_morning/</loc>
+    <lastmod>2020-02-13T08:05:28+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://encr.jp/blog/posts/20200212_night/</loc>
+    <lastmod>2020-02-12T12:16:09+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://encr.jp/blog/posts/20200212_lunch/</loc>
+    <lastmod>2020-02-12T12:01:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://encr.jp/blog/posts/20200212_morning/</loc>
+    <lastmod>2020-02-12T08:42:53+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://encr.jp/blog/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
@@ -36,12 +72,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="js"
-                href="https://encr.jp/blog/js/categories/"
+                href="https://encr.jp/blog/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://encr.jp/blog/js/series/</loc>
+    <loc>https://encr.jp/blog/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
@@ -55,12 +91,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="js"
-                href="https://encr.jp/blog/js/series/"
+                href="https://encr.jp/blog/series/"
                 />
   </url>
   
   <url>
-    <loc>https://encr.jp/blog/js/tags/</loc>
+    <loc>https://encr.jp/blog/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
@@ -74,7 +110,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="js"
-                href="https://encr.jp/blog/js/tags/"
+                href="https://encr.jp/blog/tags/"
                 />
   </url>
   

@@ -1,11 +1,13 @@
 logoText = "Tweet Blog" # Logo text that appears in the site navigation bar.
 logoType = "short" # long, short -> short: squre shape includes logo text, long: rectangle shape not includes logo text
 logo = true # Logo that appears in the site navigation bar.
-description = "つぶやく感じで適当に書く技術ブログ" # for SEO
+description = "ツイート感覚で適当に書く技術ブログ" # for SEO
 custom_css = [] # custom_css = ["scss/custom.scss"] and then make file at root/assets/scss/custom.scss
 custom_js = [] # custom_js = ["js/custom.js"] and then make file at root/assets/js/custom.js
 useFaviconGenerator = true
 languagedir = "ltr" # ltr / rtl
+
+meta_image = "posts/img/meta-image.png"
 
 themeOptions = ["solarized", "light", "hacker", "dark", "kimbie"] # select options for site color theme
 notAllowedTypesInHome = ["contact", "talks", "about", "showcase"] # not allowed page types in home page. type can be set in front matter or default to folder name.
@@ -119,11 +121,11 @@ scriptSrc = "" # "https://isso.example.com/js/embed.min.js"
 dataAttrs = "" # "data-isso='https://isso.example.com' data-isso-require-author='true'"
 
 [socialOptions] # if set, social icons will show up.
-email = "mailto:your@email.com"
+email = "mailto:blog@encr.jp"
 phone = ""
-facebook = "http://example.org/"
-twitter = "http://example.org/"
-github = "https://github.com/zzossig/hugo-theme-zzo"
+facebook = ""
+twitter = "http://twitter.com/runau_study"
+github = "https://github.com/runau"
 stack-overflow = ""
 instagram = ""
 google-plus = ""
@@ -168,7 +170,7 @@ copyrightLinkText = ""
 name = "facebook"
 [[share]]
 name = "twitter"
-username = ""
+username = "runau_study"
 
 [[footerLinks]]
 name = ""

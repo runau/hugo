@@ -9,4 +9,4 @@ do
     python create_meta_image.py $dir
 done
 
-hugo -t zzo
+hugo -t zzo_custom

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>aws on tweet blog</title>
+    <link>https://encr.jp/blog/tags/aws/</link>
+    <description>Recent content in aws on tweet blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <managingEditor>blog@encr.jp (るな)</managingEditor>
+    <webMaster>blog@encr.jp (るな)</webMaster>
+    <copyright>©{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Thu, 20 Feb 2020 18:22:10 +0900</lastBuildDate>
+    
+        <atom:link href="https://encr.jp/blog/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>特定のリプに自動リプライする twitterBot③</title>
+        <link>https://encr.jp/blog/posts/20200220_night/</link>
+        <pubDate>Thu, 20 Feb 2020 18:22:10 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200220_night/</guid>
+        <description>昼の記事の続き！ なぜか自分にはリプライできるのに、他人にはリプライできない問題…。 色々検索したんだけど、有益な情報が見つからず…。 公式ドキュ</description>
+      </item>
+      
+      <item>
+        <title>awsでメールサーバーを立てる</title>
+        <link>https://encr.jp/blog/posts/20200217_night/</link>
+        <pubDate>Mon, 17 Feb 2020 07:27:22 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200217_night/</guid>
+        <description>このブログもだけど、ロリポップみたいなレンタルサーバーを借りてないので、メールサーバーも使えないのです。 なので、メールもawsで受信してます</description>
+      </item>
+      
+      <item>
+        <title>バイトメンター.com</title>
+        <link>https://encr.jp/blog/posts/20200212_night/</link>
+        <pubDate>Wed, 12 Feb 2020 12:16:09 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200212_night/</guid>
+        <description>バイトメンター.com 今度linebotのハンズオン勉強会しようかな。と思って、何作ろうかなーと思ってたら、これ作りたくなった！ 頑張って作る</description>
+      </item>
+      
+    
+  </channel>
+</rss>

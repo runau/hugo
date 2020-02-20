@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hugoブログ on tweet blog</title>
+    <link>https://encr.jp/blog/categories/hugo%E3%83%96%E3%83%AD%E3%82%B0/</link>
+    <description>Recent content in hugoブログ on tweet blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <managingEditor>blog@encr.jp (るな)</managingEditor>
+    <webMaster>blog@encr.jp (るな)</webMaster>
+    <copyright>©{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Wed, 19 Feb 2020 07:43:04 +0900</lastBuildDate>
+    
+        <atom:link href="https://encr.jp/blog/categories/hugo%E3%83%96%E3%83%AD%E3%82%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>adsenseがヘッダーに表示されないバグ修正</title>
+        <link>https://encr.jp/blog/posts/20200219_night/</link>
+        <pubDate>Wed, 19 Feb 2020 07:43:04 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200219_night/</guid>
+        <description>adsenseが表示されない… 表示されるところもあるんだけど、ヘッダーとか、表示されない…。 clomeでエラー確認 とりあえず、エラーを確認。</description>
+      </item>
+      
+      <item>
+        <title>pc版ブログにadsense広告を追加する！</title>
+        <link>https://encr.jp/blog/posts/20200219_morning/</link>
+        <pubDate>Wed, 19 Feb 2020 07:43:03 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200219_morning/</guid>
+        <description>先日adsenseに合格し、自動広告のみ設定しているのですが、ページビュー286に対し、広告表示数が66…。 5回に一回しか表示すらされていな</description>
+      </item>
+      
+      <item>
+        <title>画像生成時にリンクを無視する　twitterカード画像自動生成⑦</title>
+        <link>https://encr.jp/blog/posts/20200218_night/</link>
+        <pubDate>Tue, 18 Feb 2020 21:07:29 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200218_night/</guid>
+        <description>前回の記事のアイキャッチがひどい… この文字化けかのごときurl… この画像自動生成は、マークダウンの記事をそのまま出力してるからね… なので、単</description>
+      </item>
+      
+      <item>
+        <title>forkwellとこのブログを連携</title>
+        <link>https://encr.jp/blog/posts/20200218_morning/</link>
+        <pubDate>Tue, 18 Feb 2020 12:27:28 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200218_morning/</guid>
+        <description>forkwellとは？ こちら の求人サイト。 登録で2000円のアマゾンギフト券もらえたりします。 ポートフォリオの登録が出来て、そのポートフォリ</description>
+      </item>
+      
+      <item>
+        <title>hugo newのカスタマイズ　twitterカード画像自動生成機能⑥</title>
+        <link>https://encr.jp/blog/posts/20200217_lunch/</link>
+        <pubDate>Mon, 17 Feb 2020 07:27:22 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200217_lunch/</guid>
+        <description>twitterカード画像自動生成機能は画像を自動生成するだけなので、各記事のheaderにmeta_imageを自力で設定しないといけなかっ</description>
+      </item>
+      
+      <item>
+        <title>画像生成スクリプトをビルド時に動かす　twitterカード画像自動生成機能⑤</title>
+        <link>https://encr.jp/blog/posts/20200217_morning/</link>
+        <pubDate>Mon, 17 Feb 2020 07:27:22 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200217_morning/</guid>
+        <description>昨日作った画像生成スクリプトの残作業を進める ビルドコマンドと昨日のスクリプトをshでラッピングする 指定したディレクトリ内のファイルに対して、</description>
+      </item>
+      
+      <item>
+        <title>twitterカード画像自動生成機能を記事ごとに動かす　twitterカード画像自動生成機能④</title>
+        <link>https://encr.jp/blog/posts/20200216_lunch/</link>
+        <pubDate>Sun, 16 Feb 2020 13:05:01 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200216_lunch/</guid>
+        <description>朝作ったスクリプトをいい感じで自動で動かす方法を考える！ 朝の記事は こちら 引数を渡す まずは、引数渡せるようにして、いい感じのファイルを作れるよ</description>
+      </item>
+      
+      <item>
+        <title>twitterカード自動生成機能作った　twitterカード画像自動生成機能③</title>
+        <link>https://encr.jp/blog/posts/20200216_morning/</link>
+        <pubDate>Sun, 16 Feb 2020 00:08:31 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200216_morning/</guid>
+        <description>昨日あれから、寝る前にどうやるか、よく考えた。 で、思った。 どうせバッチっぽいの回すなら、jsでなくてよくね？？ Pythonで画像に文字描画 と</description>
+      </item>
+      
+      <item>
+        <title>Twitterカードの画像の自動生成機能を考える　twitterカード画像自動生成機能②</title>
+        <link>https://encr.jp/blog/posts/20200215_lunch/</link>
+        <pubDate>Sat, 15 Feb 2020 19:00:55 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200215_lunch/</guid>
+        <description>朝の続き。 朝活の後、カラオケオフ会に行ってきましたよw うん、やっぱり楽しい！ 歌、上手くなりたいなー… さて、twitterカードの画像を自動生</description>
+      </item>
+      
+      <item>
+        <title>Twitterカードの設定　twitterカード画像自動生成機能①</title>
+        <link>https://encr.jp/blog/posts/20200215_morning/</link>
+        <pubDate>Sat, 15 Feb 2020 06:23:46 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200215_morning/</guid>
+        <description>hugoのzzoでtwitterカードを設定する！ 今はこんな感じ… 可愛くない… 可愛くしたい！ ちなみに、twitter上にどう表示されるか？は</description>
+      </item>
+      
+      <item>
+        <title>hugo/zzoブログでadsense審査通ったw</title>
+        <link>https://encr.jp/blog/posts/20200214_night/</link>
+        <pubDate>Fri, 14 Feb 2020 18:51:11 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200214_night/</guid>
+        <description>今日adsense対策しようと思って、とりあえず昨日の夜、無理やり広告タグ貼り付けて審査出すだけだしたんだけど、受かったよねww 昔のブログは</description>
+      </item>
+      
+      <item>
+        <title>hugo/zzoのカスタムヘッダーを設定</title>
+        <link>https://encr.jp/blog/posts/20200214_lunch/</link>
+        <pubDate>Fri, 14 Feb 2020 12:22:32 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200214_lunch/</guid>
+        <description>実は昨日も頑張ったんだけど…。 その続き hugo/zzoのタイトルとプロフィールを変更 とりあえず、タイトルは表示されたんだけど、スマホだと見切</description>
+      </item>
+      
+      <item>
+        <title>ツイートブログの決まり</title>
+        <link>https://encr.jp/blog/posts/20200214_morning/</link>
+        <pubDate>Fri, 14 Feb 2020 07:01:51 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200214_morning/</guid>
+        <description>adsenceやろうかと思ったんだけど、先にツイートブログのルール決めたくて考えたww ツイートブログとは？ ツイート感覚で、適当に書くブログの</description>
+      </item>
+      
+      <item>
+        <title>hugo/zzoのタイトルとプロフィールを変更</title>
+        <link>https://encr.jp/blog/posts/20200213_night/</link>
+        <pubDate>Thu, 13 Feb 2020 20:19:51 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200213_night/</guid>
+        <description>zzoのヘッダーを変える いまはこんな感じ なぜかタイトルがzzo… タイトルとロゴくらいは変えないとねww Hugo Themes customizing custom header You may want to change home page header. There are 4 options which is</description>
+      </item>
+      
+      <item>
+        <title>hugo/zzoに独自のfaviconを設定</title>
+        <link>https://encr.jp/blog/posts/20200213_lunch/</link>
+        <pubDate>Thu, 13 Feb 2020 12:41:12 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200213_lunch/</guid>
+        <description>とりあえずzzo動くようになったけど、プロフィールとかもテンプレのままなので、修正する favicon設定 まず、favicon変える。 せっかく</description>
+      </item>
+      
+      <item>
+        <title>hugoのテーマをzzoに変えてみる</title>
+        <link>https://encr.jp/blog/posts/20200213_morning/</link>
+        <pubDate>Thu, 13 Feb 2020 08:05:28 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200213_morning/</guid>
+        <description>ワードプレスもそうだけど、色々テンプレデザインが落ちてるのはいいよねww anankeいいんだけど、もう少しおしゃれにしたいから、可愛いのに変</description>
+      </item>
+      
+      <item>
+        <title>hugo初期設定と戦ってみる</title>
+        <link>https://encr.jp/blog/posts/20200212_lunch/</link>
+        <pubDate>Wed, 12 Feb 2020 12:01:00 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200212_lunch/</guid>
+        <description>hugo初期設定との戦い ミスドランチをしながら、30分で頑張る！ 記事出てこない問題 hugo new posts/20200212_morning.md して、記事ページは作られてるんだけど、 hugo server -D すると、</description>
+      </item>
+      
+      <item>
+        <title>hugoでつぶやきブログ作った</title>
+        <link>https://encr.jp/blog/posts/20200212_morning/</link>
+        <pubDate>Wed, 12 Feb 2020 08:42:53 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200212_morning/</guid>
+        <description>ブログ作った Twitterで今日の積み上げとかやるけど、残らないし、twitterだと細かいこと書けないし、ブログにした やった事とか、困った</description>
+      </item>
+      
+    
+  </channel>
+</rss>

@@ -1,7 +1,7 @@
 #!/bin/sh
 
 dir_path="content/posts/*"
-dirs=`find $dir_path -maxdepth 0 -type f -name 20200217*.md`
+dirs=`find $dir_path -maxdepth 0 -type f -name 20200221*.md`
 
 for dir in $dirs;
 do

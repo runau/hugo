@@ -1,6 +1,7 @@
 from PIL import ImageFont, ImageDraw, Image
 import sys
 import yaml
+import re
 
 
 def add_text_to_image(img, base_text, font_path, font_size, font_color, height, width, line=1, max_length=800, max_height=420):
@@ -9,6 +10,10 @@ def add_text_to_image(img, base_text, font_path, font_size, font_color, height, 
     lineCnt = 1
     base_text = base_text.strip()
     base_text = base_text.replace("\n\n", "\n")
+    base_text = re.sub('\!\[.+\]','',base_text)
+    base_text = base_text.replace("[", "")
+    base_text = base_text.replace("]", "")
+    base_text = re.sub('\(.+\)','',base_text)
     base_text = base_text[0:150]
     break_flg = False
     for lineCnt in range(line):

@@ -17,6 +17,8 @@ rssLimit = 100
 
 enableGitInfo = false # When true, the modified date will appear on a summary and single page. Since GitHub info needs to be fetched, this feature will slow down to build depending on a page number you have
 googleAnalytics = "UA-96582353-7"
+disableAdsense = true
+#enableSidebar
 
 [markup]
   [markup.goldmark]

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>twitter api on tweet blog</title>
+    <link>https://encr.jp/blog/categories/twitter-api/</link>
+    <description>Recent content in twitter api on tweet blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <managingEditor>blog@encr.jp (るな)</managingEditor>
+    <webMaster>blog@encr.jp (るな)</webMaster>
+    <copyright>©{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Thu, 20 Feb 2020 18:22:10 +0900</lastBuildDate>
+    
+        <atom:link href="https://encr.jp/blog/categories/twitter-api/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>特定のリプに自動リプライする twitterBot③</title>
+        <link>https://encr.jp/blog/posts/20200220_night/</link>
+        <pubDate>Thu, 20 Feb 2020 18:22:10 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200220_night/</guid>
+        <description>昼の記事の続き！ なぜか自分にはリプライできるのに、他人にはリプライできない問題…。 色々検索したんだけど、有益な情報が見つからず…。 公式ドキュ</description>
+      </item>
+      
+      <item>
+        <title>twitter apiで特定ツイートの情報を取得 twitterBot②</title>
+        <link>https://encr.jp/blog/posts/20200220_lunch/</link>
+        <pubDate>Thu, 20 Feb 2020 12:22:10 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200220_lunch/</guid>
+        <description>朝、とりあえず適当な自分のツイートにリプライするまでできた。 でも自動リプライしたいのはこれじゃないんだよね…。 今回は、本命のツイートにリプラ</description>
+      </item>
+      
+      <item>
+        <title>twitter apiでリプライ twitterBot①</title>
+        <link>https://encr.jp/blog/posts/20200220_morning/</link>
+        <pubDate>Thu, 20 Feb 2020 05:22:09 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200220_morning/</guid>
+        <description>今日は自動リプライbot作ります！ 本当はwebhookで拾って、リプライするのがいいんだけど、さくっと作りたいので、10分起きに特定のツイー</description>
+      </item>
+      
+    
+  </channel>
+</rss>

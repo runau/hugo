@@ -1,11 +1,23 @@
 [[main]]
   identifier = "top"
   name = "top"
-  url = "https://encr.jp"
+  url = "https://encr.jp/blog"
   weight = 1
 
 [[main]]
-  identifier = "posts"
-  name = "posts"
-  url = "posts"
+  identifier = "categories"
+  name = "categories"
+  url = "categories"
+  weight = 2
+
+[[main]]
+  identifier = "tags"
+  name = "tags"
+  url = "tags"
+  weight = 3
+
+[[main]]
+  identifier = "service"
+  name = "service"
+  url = "https://encr.jp"
   weight = 4

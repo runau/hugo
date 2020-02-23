@@ -9,12 +9,30 @@
     <managingEditor>blog@encr.jp (るな)</managingEditor>
     <webMaster>blog@encr.jp (るな)</webMaster>
     <copyright>©{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Wed, 19 Feb 2020 07:43:04 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 23 Feb 2020 07:26:49 +0900</lastBuildDate>
     
         <atom:link href="https://encr.jp/blog/categories/hugo%E3%83%96%E3%83%AD%E3%82%B0/index.xml" rel="self" type="application/rss+xml" />
     
     
     
+      
+      <item>
+        <title>hugoブログの仕組み　なぜ60円でブログが作れるのか？</title>
+        <link>https://encr.jp/blog/posts/20200223_morning/</link>
+        <pubDate>Sun, 23 Feb 2020 07:26:49 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200223_morning/</guid>
+        <description>今更ですが、このブログの仕組みを解説したいと思います。 サーバーの話 動的webサイト(wordpressなど)の仕組み Wordpressが有名</description>
+      </item>
+      
+      <item>
+        <title>lineBot作ったら売れた話</title>
+        <link>https://encr.jp/blog/posts/20200221_night/</link>
+        <pubDate>Fri, 21 Feb 2020 19:15:45 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200221_night/</guid>
+        <description>イベントでLTしてきました。 ちなみにショートコードのうめこみはこちらを参考にさせて頂きました！ 余裕があったら、記事にします！ 今日はこれだけw</description>
+      </item>
       
       <item>
         <title>adsenseがヘッダーに表示されないバグ修正</title>

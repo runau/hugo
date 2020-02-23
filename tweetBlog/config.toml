@@ -1,5 +1,5 @@
 baseURL = "https://encr.jp/blog"
-languageCode = "ja-jp"
+languageCode = "ja"
 title = "tweet blog"
 theme = "zzo_custom"
 hasCJKLanguage = "true"

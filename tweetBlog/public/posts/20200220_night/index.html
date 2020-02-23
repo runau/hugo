@@ -1374,7 +1374,7 @@ if (!doNotTrack) {
       
       
       
-        <a href="https://encr.jp" class="navbar__menu-item navbar__slide-down " dir="ltr">top</a>
+        <a href="https://encr.jp/blog" class="navbar__menu-item navbar__slide-down " dir="ltr">top</a>
       
     
       
@@ -1382,7 +1382,23 @@ if (!doNotTrack) {
       
       
       
-        <a href="/blog/posts" class="navbar__menu-item navbar__slide-down active" dir="ltr">posts</a>
+        <a href="/blog/categories" class="navbar__menu-item navbar__slide-down " dir="ltr">categories</a>
+      
+    
+      
+      
+      
+      
+      
+        <a href="/blog/tags" class="navbar__menu-item navbar__slide-down " dir="ltr">tags</a>
+      
+    
+      
+      
+      
+      
+      
+        <a href="https://encr.jp" class="navbar__menu-item navbar__slide-down " dir="ltr">service</a>
       
     
   </div>
@@ -1424,6 +1440,18 @@ if (!doNotTrack) {
   </ol>
   
 </nav>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4725631118760510"
+     data-ad-slot="4968126500"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
   
   <noscript>
     
@@ -1554,7 +1582,8 @@ if (!doNotTrack) {
 
 </code></pre></td></tr></table>
 </div>
-</div><p>入ったーーー！</p>
+</div><p><img src="../img/twitter-reply-ok.jpg" alt="リプライ成功" /></p>
+<p>入ったーーー！</p>
 <p>メンションも勝手に入ったし、in_reply_to_status_idも設定された！</p>
 <p>よし、次</p>
 <h3 id="リプライ済のものは無視する">リプライ済のものは無視する</h3>
@@ -1639,6 +1668,10 @@ if (!doNotTrack) {
 </span><span class="lnt">32
 </span><span class="lnt">33
 </span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-py" data-lang="py">    <span class="c1">#自分宛のリプライを全て取得</span>
@@ -1647,22 +1680,26 @@ if (!doNotTrack) {
         <span class="n">auth</span><span class="o">=</span><span class="n">getOauth</span><span class="p">(</span><span class="p">)</span>
     <span class="p">)</span><span class="o">.</span><span class="n">json</span><span class="p">(</span><span class="p">)</span>
     <span class="k">print</span><span class="p">(</span><span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">response</span><span class="p">,</span> <span class="n">ensure_ascii</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span> <span class="n">indent</span><span class="o">=</span><span class="mi">4</span><span class="p">)</span><span class="p">)</span>
-    <span class="n">response</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">filter</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span><span class="n">x</span><span class="p">[</span><span class="sa"></span><span class="s2">&#34;</span><span class="s2">in_reply_to_status_id</span><span class="s2">&#34;</span><span class="p">]</span> <span class="o">==</span> <span class="n">in_reply_to_status_id</span><span class="p">,</span><span class="n">response</span><span class="p">)</span><span class="p">)</span>
 
     <span class="c1">#その中から、指定した元ツイートに対してのリプライのみに絞り込む</span>
+    <span class="n">response</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">filter</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span><span class="n">x</span><span class="p">[</span><span class="sa"></span><span class="s2">&#34;</span><span class="s2">in_reply_to_status_id</span><span class="s2">&#34;</span><span class="p">]</span> <span class="o">==</span> <span class="n">in_reply_to_status_id</span><span class="p">,</span><span class="n">response</span><span class="p">)</span><span class="p">)</span>
+
+    <span class="c1">#自分のツイートを取得</span>
     <span class="n">in_reply_to_status_id</span><span class="o">=</span><span class="mi">1230223693969</span><span class="n">xxxxxx</span>
     <span class="n">doneList</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span>
         <span class="n">f</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name={SCREEN_NAME}</span><span class="s1">&#39;</span><span class="p">,</span>
         <span class="n">auth</span><span class="o">=</span><span class="n">getOauth</span><span class="p">(</span><span class="p">)</span>
     <span class="p">)</span><span class="o">.</span><span class="n">json</span><span class="p">(</span><span class="p">)</span>
+
+    <span class="c1">#元ツイートのidの一覧を取得</span>
     <span class="n">doneList</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span><span class="n">x</span><span class="p">[</span><span class="sa"></span><span class="s2">&#34;</span><span class="s2">in_reply_to_status_id</span><span class="s2">&#34;</span><span class="p">]</span><span class="p">,</span><span class="n">doneList</span><span class="p">)</span><span class="p">)</span>
     <span class="k">print</span><span class="p">(</span><span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">doneList</span><span class="p">,</span> <span class="n">ensure_ascii</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span> <span class="n">indent</span><span class="o">=</span><span class="mi">4</span><span class="p">)</span><span class="p">)</span>
 
     <span class="c1">#リプライする</span>
     <span class="k">for</span> <span class="n">r</span> <span class="ow">in</span> <span class="n">response</span><span class="p">:</span>
-        <span class="n">status</span> <span class="o">=</span> <span class="n">f</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">{r[</span><span class="s1">&#34;</span><span class="s1">user</span><span class="s1">&#34;</span><span class="s1">][</span><span class="s1">&#34;</span><span class="s1">name</span><span class="s1">&#34;</span><span class="s1">]}さん、おはようございます！</span><span class="se">\n</span><span class="s1">リプありがとうございます♡</span><span class="se">\n</span><span class="s1">今日も頑張りましょうー！！</span><span class="se">\n</span><span class="se">\n</span><span class="s1">※このツイートはbotからの自動送信です</span><span class="s1">&#39;</span>
         <span class="n">in_reply_to_status_id</span><span class="o">=</span><span class="n">r</span><span class="p">[</span><span class="sa"></span><span class="s2">&#34;</span><span class="s2">id</span><span class="s2">&#34;</span><span class="p">]</span>
         <span class="k">if</span> <span class="n">in_reply_to_status_id</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">doneList</span><span class="p">:</span>
+            <span class="n">status</span> <span class="o">=</span> <span class="n">f</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">{r[</span><span class="s1">&#34;</span><span class="s1">user</span><span class="s1">&#34;</span><span class="s1">][</span><span class="s1">&#34;</span><span class="s1">name</span><span class="s1">&#34;</span><span class="s1">]}さん、おはようございます！</span><span class="se">\n</span><span class="s1">リプありがとうございます♡</span><span class="se">\n</span><span class="s1">今日も頑張りましょうー！！</span><span class="se">\n</span><span class="se">\n</span><span class="s1">※このツイートはbotからの自動送信です</span><span class="s1">&#39;</span>
             <span class="k">print</span><span class="p">(</span><span class="n">f</span><span class="sa"></span><span class="s2">&#34;</span><span class="s2">in_reply_to_status_id:{in_reply_to_status_id} exec</span><span class="s2">&#34;</span><span class="p">)</span>
             <span class="n">replyResponse</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">post</span><span class="p">(</span>
                 <span class="n">f</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">https://api.twitter.com/1.1/statuses/update.json</span><span class="s1">&#39;</span><span class="p">,</span>
@@ -1678,7 +1715,6 @@ if (!doNotTrack) {
 </code></pre></td></tr></table>
 </div>
 </div><p>できた！</p>
-<p><img src="../img/twitter-reply-ok.jpg" alt="リプライ成功" /></p>
 <h3 id="event設定">event設定</h3>
 <p>最後にcloudWatchイベントを追加して…</p>
 <p><img src="../img/twitter-auto-reply-event.png" alt="event設定" /></p>
@@ -1919,6 +1955,13 @@ if (!doNotTrack) {
       </a>
     
     <div class="grow"></div>
+    
+      <a href="https://encr.jp/blog/posts/20200221_lunch/" class="pagination-single__right">      
+        <div class="pagination-single__right-title">パワポ資料用にアーキテクチャ図書く draw.io</div>
+        <div class="pagination-single__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03 0 1.42.39.39 1.02.39 1.41 0l6.59-6.59c.39-.39.39-1.02 0-1.41l-6.58-6.6c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L16.17 11H5c-.55 0-1 .45-1 1s.45 1 1 1z"/></svg>
+        </div>
+      </a>
     
   
 </nav>
@@ -2265,19 +2308,6 @@ document.addEventListener('DOMContentLoaded', function () {
 <section class="sidebar hide">  
   <script>document.querySelector('.sidebar').classList.remove('hide')</script>
   <div class="toc__flexbox" data-position="fixed">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-4725631118760510"
-     data-ad-slot="7925462339"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-<br>
-
     <h6 class="toc__title"></h6>
     
       <label class="switch">
@@ -2298,6 +2328,19 @@ document.addEventListener('DOMContentLoaded', function () {
     </li>
   </ul>
 </nav>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4725631118760510"
+     data-ad-slot="7925462339"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<br>
+
   </div>
 </section>
 
@@ -2945,20 +2988,6 @@ document.addEventListener('DOMContentLoaded', function () {
     
     
     
-      
-      
-        
-        
-          
-            
-              <a href="https://encr.jp/blog/posts/20200220_night/" data-lang="ja" class="dropdown-item is-active">japanese</a>
-            
-          
-        
-      
-        
-      
-    
   </div>
 </div>
 
@@ -3047,7 +3076,7 @@ document.addEventListener('DOMContentLoaded', function () {
             
     
     
-  <a href="https://encr.jp/blog/posts/20200220_night//index.xml" type="application/rss+xml" title="rss" aria-label="RSS Feed Link">
+  <a href="https://encr.jp/blog/posts/20200220_night/index.xml" type="application/rss+xml" title="rss" aria-label="RSS Feed Link">
     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><circle fill="currentColor" cx="6.18" cy="17.82" r="2.18"/><path fill="currentColor" d="M5.59 10.23c-.84-.14-1.59.55-1.59 1.4 0 .71.53 1.28 1.23 1.4 2.92.51 5.22 2.82 5.74 5.74.12.7.69 1.23 1.4 1.23.85 0 1.54-.75 1.41-1.59-.68-4.2-3.99-7.51-8.19-8.18zm-.03-5.71C4.73 4.43 4 5.1 4 5.93c0 .73.55 1.33 1.27 1.4 6.01.6 10.79 5.38 11.39 11.39.07.73.67 1.28 1.4 1.28.84 0 1.5-.73 1.42-1.56-.73-7.34-6.57-13.19-13.92-13.92z"/></svg>
   </a>
 

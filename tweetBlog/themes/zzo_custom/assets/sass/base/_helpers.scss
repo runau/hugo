@@ -1,0 +1,23 @@
+.clearfix::after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.hide {
+  display: none;
+}
+
+.grow {
+  @include flex-grow(1);
+}
+
+.basicflex {
+  @include flexbox();
+  @include align-items(center);
+  @include justify-content(center);
+}

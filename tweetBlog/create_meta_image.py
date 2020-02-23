@@ -11,6 +11,7 @@ def add_text_to_image(img, base_text, font_path, font_size, font_color, height, 
     base_text = base_text.strip()
     base_text = base_text.replace("\n\n", "\n")
     base_text = re.sub('\!\[.+\]','',base_text)
+    base_text = re.sub('\{\{.+\}\}','',base_text)
     base_text = base_text.replace("[", "")
     base_text = base_text.replace("]", "")
     base_text = re.sub('\(.+\)','',base_text)

@@ -9,12 +9,21 @@
     <managingEditor>blog@encr.jp (るな)</managingEditor>
     <webMaster>blog@encr.jp (るな)</webMaster>
     <copyright>©{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Wed, 12 Feb 2020 12:16:09 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 21 Feb 2020 19:15:45 +0900</lastBuildDate>
     
         <atom:link href="https://encr.jp/blog/categories/linebot/index.xml" rel="self" type="application/rss+xml" />
     
     
     
+      
+      <item>
+        <title>lineBot作ったら売れた話</title>
+        <link>https://encr.jp/blog/posts/20200221_night/</link>
+        <pubDate>Fri, 21 Feb 2020 19:15:45 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200221_night/</guid>
+        <description>イベントでLTしてきました。 ちなみにショートコードのうめこみはこちらを参考にさせて頂きました！ 余裕があったら、記事にします！ 今日はこれだけw</description>
+      </item>
       
       <item>
         <title>バイトメンター.com</title>

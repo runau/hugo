@@ -1,7 +1,7 @@
 #!/bin/sh
 
 dir_path="content/posts/*"
-dirs=`find $dir_path -maxdepth 0 -type f -name 20200223*.md`
+dirs=`find $dir_path -maxdepth 0 -type f -name 20200307*.md`
 
 for dir in $dirs;
 do
@@ -10,3 +10,5 @@ do
 done
 
 hugo -t zzo_custom
+cp ./content/posts/meta_image/* ./public/posts/meta_image/ -p
+cp ./content/posts/img/* ./public/posts/img/ -p

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>portfolio on tweet blog</title>
+    <link>https://encr.jp/blog/categories/portfolio/</link>
+    <description>Recent content in portfolio on tweet blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <managingEditor>blog@encr.jp (るな)</managingEditor>
+    <webMaster>blog@encr.jp (るな)</webMaster>
+    <copyright>©{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 29 Feb 2020 20:45:02 +0900</lastBuildDate>
+    
+        <atom:link href="https://encr.jp/blog/categories/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>forkwellで経歴書公開</title>
+        <link>https://encr.jp/blog/posts/20200229_lunch/</link>
+        <pubDate>Sat, 29 Feb 2020 20:45:02 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200229_lunch/</guid>
+        <description>今日は…、forkwellの経歴とかを書きますww ずっとめんどくさくて書いてなくて、やっぱりこれ書かないとスカウトとかあんまり来ないよなーと</description>
+      </item>
+      
+      <item>
+        <title>forkwellとこのブログを連携</title>
+        <link>https://encr.jp/blog/posts/20200218_morning/</link>
+        <pubDate>Tue, 18 Feb 2020 12:27:28 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200218_morning/</guid>
+        <description>forkwellとは？ こちら の求人サイト。 登録で2000円のアマゾンギフト券もらえたりします。 ポートフォリオの登録が出来て、そのポートフォリ</description>
+      </item>
+      
+    
+  </channel>
+</rss>

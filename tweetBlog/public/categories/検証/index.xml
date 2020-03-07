@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>検証 on tweet blog</title>
+    <link>https://encr.jp/blog/categories/%E6%A4%9C%E8%A8%BC/</link>
+    <description>Recent content in 検証 on tweet blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <managingEditor>blog@encr.jp (るな)</managingEditor>
+    <webMaster>blog@encr.jp (るな)</webMaster>
+    <copyright>©{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 07 Mar 2020 12:49:32 +0900</lastBuildDate>
+    
+        <atom:link href="https://encr.jp/blog/categories/%E6%A4%9C%E8%A8%BC/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>ちょっとデータを残したい時 SSM,S3,dynamoDB,SQSどれがいいのか？検証</title>
+        <link>https://encr.jp/blog/posts/20200307_lunch/</link>
+        <pubDate>Sat, 07 Mar 2020 12:49:32 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200307_lunch/</guid>
+        <description>lambdaで変数やステータスを保持しておきたい時、各サービス間のやり取りでパラメータを共有したい時。 別に何でもいいんだけど、何が一番いいの</description>
+      </item>
+      
+    
+  </channel>
+</rss>

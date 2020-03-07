@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>awsでメールサーバーを立てる – tweet blog</title>
+    <title>0円メールサーバー。メールアドレス数無限ww – tweet blog</title>
     
 
 
@@ -1151,7 +1151,7 @@
 
 
 <meta property="og:site_name" content="tweet blog">
-<meta property="og:title" content="awsでメールサーバーを立てる">
+<meta property="og:title" content="0円メールサーバー。メールアドレス数無限ww">
 <meta property="og:url" content="https://encr.jp/blog/posts/20200217_night/">
 <meta property="og:type" content="article">
 <meta property="og:description" content="ツイート感覚で適当に書く技術ブログ">
@@ -1160,7 +1160,7 @@
 <meta property="og:image:url" content="https://encr.jp/blog/posts/meta_image/20200217_night.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:app:name:iphone" content="tweet blog">
-<meta property="twitter:title" content="awsでメールサーバーを立てる">
+<meta property="twitter:title" content="0円メールサーバー。メールアドレス数無限ww">
 <meta property="twitter:description" content="ツイート感覚で適当に書く技術ブログ">
 
 <meta name="generator" content="Hugo 0.64.0" />
@@ -1190,12 +1190,12 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "headline": "awsでメールサーバーを立てる",
+    "headline": "0円メールサーバー。メールアドレス数無限ww",
     "datePublished": "2020-02-17T07:27:22+09:00",
     "dateModified": "2020-02-17T07:27:22+09:00",
     "url" : "https://encr.jp/blog/posts/20200217_night/",
     "description": "このブログもだけど、ロリポップみたいなレンタルサーバーを借りてないので、メールサーバーも使えないのです。 なので、メールもawsで受信してます",
-    "keywords": ["python","aws"],
+    "keywords": ["Python","aws"],
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://encr.jp/blog/"
@@ -1433,7 +1433,7 @@ if (!doNotTrack) {
   
   <li  class="is-active" >
     
-      <span>awsでメールサーバーを立てる</span>
+      <span>0円メールサーバー。メールアドレス数無限ww</span>
     
   </li>
   
@@ -1458,7 +1458,7 @@ if (!doNotTrack) {
   </noscript>
   <div class="single hide">
     <script>document.querySelector('.single').classList.remove('hide')</script>
-    <h2 class="single__title">awsでメールサーバーを立てる</h2>
+    <h2 class="single__title">0円メールサーバー。メールアドレス数無限ww</h2>
     <div class="single__meta">
       
 <div class="single__infos">
@@ -1474,7 +1474,7 @@ if (!doNotTrack) {
     🏷️
   
   
-    <li><a href="https://encr.jp/blog/tags/python/" class="single__tag" title="python">#python</a></li>
+    <li><a href="https://encr.jp/blog/tags/python/" class="single__tag" title="Python">#Python</a></li>
   
 
   
@@ -1488,18 +1488,23 @@ if (!doNotTrack) {
       
       <p>このブログもだけど、ロリポップみたいなレンタルサーバーを借りてないので、メールサーバーも使えないのです。</p>
 <p>なので、メールもawsで受信してます。</p>
+<p>お値段なんと0円ww</p>
 <p>で、htmlメールが綺麗に受信できないので、対策しようかなと思っているところです。</p>
 <p>今日は、まずその前に、今の現状をまとめておこうと思います！</p>
 <h2 id="構成">構成</h2>
 <p>こんな感じ？</p>
-<p>システム構成図とか仕事で書いたことないから書き方分からんww</p>
-<p><img src="../img/mail-server.png" alt="SESシステム構成図" /></p>
-<p>route53で独自ドメインを設定して、SESで受信して、一応s3にバックアップ保存して、SNSのtopicに内容投げて、SQSがサブスクリプションして、lambdaに投げて、lambdaでメールの内容読み取って、SNSに送って、サブスクリプションで別のメールに転送してます。</p>
+<p><img src="../img/mail-server-draw.png" alt="SESシステム構成図" /></p>
+<p>route53で独自ドメインを設定して、SESで受信して、SNSのtopicに内容投げて、SQSがサブスクリプションして、lambdaに投げて、lambdaでメールの内容読み取って、SNSに送って、サブスクリプションで別のメールに転送してます。</p>
 <p>長い…ww</p>
+<p>あと、一応、SESから一応s3にバックアップ保存してます。</p>
+<p>SESって実は東京リージョンになくって…。</p>
+<p>で、lambdaって同一リージョンからじゃないと叩けなくて…。</p>
+<p>なので、SESとSNSまではオレゴン。その先は東京という不思議なつくりになっていますww</p>
+<p>なんで全部オレゴンで完結してはいけないのかというと、受信したメールを東京リージョンの別のlambdaやdynamoに連携したいって言う、次の目標があるからww</p>
 <h3 id="メール読み取りlambda">メール読み取りlambda</h3>
 <p>ソースはこんな感じ</p>
 <p>で、これだとhtmlメールが綺麗に受信できないのと、タイトルと宛先と受信元と…とかの情報が取れないのが今の課題…。</p>
-<p>明日からはこの辺をなんとかする！</p>
+<p>今度この辺をなんとかする！</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt"> 1
@@ -1548,31 +1553,19 @@ if (!doNotTrack) {
 </span><span class="lnt">44
 </span><span class="lnt">45
 </span><span class="lnt">46
-</span><span class="lnt">47
-</span><span class="lnt">48
-</span><span class="lnt">49
-</span><span class="lnt">50
-</span><span class="lnt">51
-</span><span class="lnt">52
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-lambda.py" data-lang="lambda.py"><span class="kn">import</span> <span class="nn">json</span>
+<pre class="chroma"><code class="language-py:lambda.py" data-lang="py:lambda.py"><span class="kn">import</span> <span class="nn">json</span>
 <span class="kn">import</span> <span class="nn">email</span>
 <span class="kn">import</span> <span class="nn">boto3</span>
 
 <span class="k">def</span> <span class="nf">lambda_handler</span><span class="p">(</span><span class="n">event</span><span class="p">,</span> <span class="n">context</span><span class="p">)</span><span class="p">:</span>
-    <span class="c1"># TODO implement</span>
     <span class="k">print</span><span class="p">(</span><span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">event</span><span class="p">)</span><span class="p">)</span>
-    <span class="k">print</span><span class="p">(</span><span class="n">event</span><span class="p">[</span><span class="sa"></span><span class="s2">&#34;</span><span class="s2">Records</span><span class="s2">&#34;</span><span class="p">]</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="p">[</span><span class="sa"></span><span class="s2">&#34;</span><span class="s2">body</span><span class="s2">&#34;</span><span class="p">]</span><span class="p">)</span>
     <span class="n">message</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="n">event</span><span class="p">[</span><span class="sa"></span><span class="s2">&#34;</span><span class="s2">Records</span><span class="s2">&#34;</span><span class="p">]</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="p">[</span><span class="sa"></span><span class="s2">&#34;</span><span class="s2">body</span><span class="s2">&#34;</span><span class="p">]</span><span class="p">)</span>
-    <span class="c1"># print(message[&#34;content&#34;])</span>
-    <span class="k">try</span><span class="p">:</span>
-        <span class="k">print</span><span class="p">(</span><span class="n">email</span><span class="o">.</span><span class="n">message_from_string</span><span class="p">(</span><span class="n">message</span><span class="p">[</span><span class="sa"></span><span class="s2">&#34;</span><span class="s2">content</span><span class="s2">&#34;</span><span class="p">]</span><span class="p">)</span><span class="p">)</span>
-        <span class="n">email_body</span> <span class="o">=</span> <span class="n">response</span><span class="p">[</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">Body</span><span class="s1">&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="p">)</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="sa"></span><span class="s1">&#39;</span><span class="s1">utf-8</span><span class="s1">&#39;</span><span class="p">)</span>
-    <span class="k">except</span><span class="p">:</span>
-        <span class="n">email_body</span> <span class="o">=</span> <span class="n">message</span><span class="p">[</span><span class="sa"></span><span class="s2">&#34;</span><span class="s2">content</span><span class="s2">&#34;</span><span class="p">]</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">message</span><span class="p">)</span>
+
+    <span class="n">email_body</span> <span class="o">=</span> <span class="n">message</span><span class="p">[</span><span class="sa"></span><span class="s2">&#34;</span><span class="s2">content</span><span class="s2">&#34;</span><span class="p">]</span>
     <span class="n">email_object</span> <span class="o">=</span> <span class="n">email</span><span class="o">.</span><span class="n">message_from_string</span><span class="p">(</span><span class="n">email_body</span><span class="p">)</span>
-    <span class="c1"># print(email_object)</span>
          
     <span class="n">body</span> <span class="o">=</span> <span class="sa"></span><span class="s2">&#34;</span><span class="s2">&#34;</span>
     <span class="k">for</span> <span class="n">part</span> <span class="ow">in</span> <span class="n">email_object</span><span class="o">.</span><span class="n">walk</span><span class="p">(</span><span class="p">)</span><span class="p">:</span>
@@ -1610,7 +1603,11 @@ if (!doNotTrack) {
 
 </code></pre></td></tr></table>
 </div>
-</div>
+</div><p>こんな感じのメールが来ます。</p>
+<p><img src="../img/mail-no-header-title.jpg" alt="タイトル" /><br />
+<img src="../img/mail-no-header.jpg" alt="本文" /></p>
+<p>色々と改善頑張る回は<a href="../20200228_morning/">こちら</a></p>
+
     </article>
     <script>
   'use strict';
@@ -1676,7 +1673,7 @@ if (!doNotTrack) {
       
     
       
-        <a href="https://twitter.com/intent/tweet?text=aws%e3%81%a7%e3%83%a1%e3%83%bc%e3%83%ab%e3%82%b5%e3%83%bc%e3%83%90%e3%83%bc%e3%82%92%e7%ab%8b%e3%81%a6%e3%82%8b&url=https%3a%2f%2fencr.jp%2fblog%2fposts%2f20200217_night%2f&hashtags=python%2caws&via=runau_study" title="Twitter" aria-label="Twitter Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
+        <a href="https://twitter.com/intent/tweet?text=0%e5%86%86%e3%83%a1%e3%83%bc%e3%83%ab%e3%82%b5%e3%83%bc%e3%83%90%e3%83%bc%e3%80%82%e3%83%a1%e3%83%bc%e3%83%ab%e3%82%a2%e3%83%89%e3%83%ac%e3%82%b9%e6%95%b0%e7%84%a1%e9%99%90ww&url=https%3a%2f%2fencr.jp%2fblog%2fposts%2f20200217_night%2f&hashtags=Python%2caws&via=runau_study" title="Twitter" aria-label="Twitter Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
           <svg data-name="twitter" enable-background="new 0 0 24 24" viewBox="0 0 24 24" width="35" height="35" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="m21.534 7.113c.976-.693 1.797-1.558 2.466-2.554v-.001c-.893.391-1.843.651-2.835.777 1.02-.609 1.799-1.566 2.165-2.719-.951.567-2.001.967-3.12 1.191-.903-.962-2.19-1.557-3.594-1.557-2.724 0-4.917 2.211-4.917 4.921 0 .39.033.765.114 1.122-4.09-.2-7.71-2.16-10.142-5.147-.424.737-.674 1.58-.674 2.487 0 1.704.877 3.214 2.186 4.089-.791-.015-1.566-.245-2.223-.606v.054c0 2.391 1.705 4.377 3.942 4.835-.401.11-.837.162-1.29.162-.315 0-.633-.018-.931-.084.637 1.948 2.447 3.381 4.597 3.428-1.674 1.309-3.8 2.098-6.101 2.098-.403 0-.79-.018-1.177-.067 2.18 1.405 4.762 2.208 7.548 2.208 8.683 0 14.342-7.244 13.986-14.637z"/></svg>
         </a>
       

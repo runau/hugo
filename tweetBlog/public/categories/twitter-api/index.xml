@@ -9,12 +9,39 @@
     <managingEditor>blog@encr.jp (るな)</managingEditor>
     <webMaster>blog@encr.jp (るな)</webMaster>
     <copyright>©{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sat, 22 Feb 2020 19:51:45 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 05 Mar 2020 12:37:42 +0900</lastBuildDate>
     
         <atom:link href="https://encr.jp/blog/categories/twitter-api/index.xml" rel="self" type="application/rss+xml" />
     
     
     
+      
+      <item>
+        <title>twitter api申請をする 例文有</title>
+        <link>https://encr.jp/blog/posts/20200305_lunch/</link>
+        <pubDate>Thu, 05 Mar 2020 12:37:42 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200305_lunch/</guid>
+        <description>ついに抽選bot用のアカウントを作ることにしました！ twitterアカウントはこちら twitterアカウント作成 これは説明不要ですよね？ 普通</description>
+      </item>
+      
+      <item>
+        <title>次回企画に向けて！抽選する。dynamoと繋ぐ。色々やりたい！ twitterBot④</title>
+        <link>https://encr.jp/blog/posts/20200226_morning/</link>
+        <pubDate>Wed, 26 Feb 2020 07:48:19 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200226_morning/</guid>
+        <description>終わりました。Twitterbot企画！ 50人近い方にリプライ頂けて感激でした// で、感想と反省と次回のやりたい事をまとめますww 結果 おはよ</description>
+      </item>
+      
+      <item>
+        <title>リツイート企画botを作って twitterBot④</title>
+        <link>https://encr.jp/blog/posts/20200223_lunch/</link>
+        <pubDate>Sun, 23 Feb 2020 11:56:36 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200223_lunch/</guid>
+        <description>フォロワー様5000人を記念して、企画botを作りました。 企画ツイートにリプしてくれたら、御礼のリプライと、その人の最近のツイートを3件リツ</description>
+      </item>
       
       <item>
         <title>自動リツイートする！そして完成！ twitterBot⑥</title>

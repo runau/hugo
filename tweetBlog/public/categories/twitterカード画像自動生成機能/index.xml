@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>twitterカード画像自動生成機能 on tweet blog</title>
+    <link>https://encr.jp/blog/categories/twitter%E3%82%AB%E3%83%BC%E3%83%89%E7%94%BB%E5%83%8F%E8%87%AA%E5%8B%95%E7%94%9F%E6%88%90%E6%A9%9F%E8%83%BD/</link>
+    <description>Recent content in twitterカード画像自動生成機能 on tweet blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <managingEditor>blog@encr.jp (るな)</managingEditor>
+    <webMaster>blog@encr.jp (るな)</webMaster>
+    <copyright>©{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Mon, 17 Feb 2020 07:27:22 +0900</lastBuildDate>
+    
+        <atom:link href="https://encr.jp/blog/categories/twitter%E3%82%AB%E3%83%BC%E3%83%89%E7%94%BB%E5%83%8F%E8%87%AA%E5%8B%95%E7%94%9F%E6%88%90%E6%A9%9F%E8%83%BD/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>hugo newのカスタマイズ　twitterカード画像自動生成機能⑥</title>
+        <link>https://encr.jp/blog/posts/20200217_lunch/</link>
+        <pubDate>Mon, 17 Feb 2020 07:27:22 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200217_lunch/</guid>
+        <description>twitterカード画像自動生成機能は画像を自動生成するだけなので、各記事のheaderにmeta_imageを自力で設定しないといけなかっ</description>
+      </item>
+      
+      <item>
+        <title>画像生成スクリプトをビルド時に動かす　twitterカード画像自動生成機能⑤</title>
+        <link>https://encr.jp/blog/posts/20200217_morning/</link>
+        <pubDate>Mon, 17 Feb 2020 07:27:22 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200217_morning/</guid>
+        <description>昨日作った画像生成スクリプトの残作業を進める ビルドコマンドと昨日のスクリプトをshでラッピングする 指定したディレクトリ内のファイルに対して、</description>
+      </item>
+      
+      <item>
+        <title>twitterカード画像自動生成機能を記事ごとに動かす　twitterカード画像自動生成機能④</title>
+        <link>https://encr.jp/blog/posts/20200216_lunch/</link>
+        <pubDate>Sun, 16 Feb 2020 13:05:01 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200216_lunch/</guid>
+        <description>朝作ったスクリプトをいい感じで自動で動かす方法を考える！ 朝の記事は こちら 引数を渡す まずは、引数渡せるようにして、いい感じのファイルを作れるよ</description>
+      </item>
+      
+      <item>
+        <title>twitterカード自動生成機能作った　twitterカード画像自動生成機能③</title>
+        <link>https://encr.jp/blog/posts/20200216_morning/</link>
+        <pubDate>Sun, 16 Feb 2020 00:08:31 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200216_morning/</guid>
+        <description>昨日あれから、寝る前にどうやるか、よく考えた。 で、思った。 どうせバッチっぽいの回すなら、jsでなくてよくね？？ Pythonで画像に文字描画 と</description>
+      </item>
+      
+      <item>
+        <title>Twitterカードの画像の自動生成機能を考える　twitterカード画像自動生成機能②</title>
+        <link>https://encr.jp/blog/posts/20200215_lunch/</link>
+        <pubDate>Sat, 15 Feb 2020 19:00:55 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200215_lunch/</guid>
+        <description>朝の続き。 朝活の後、カラオケオフ会に行ってきましたよw うん、やっぱり楽しい！ 歌、上手くなりたいなー… さて、twitterカードの画像を自動生</description>
+      </item>
+      
+      <item>
+        <title>Twitterカードの設定　twitterカード画像自動生成機能①</title>
+        <link>https://encr.jp/blog/posts/20200215_morning/</link>
+        <pubDate>Sat, 15 Feb 2020 06:23:46 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200215_morning/</guid>
+        <description>hugoのzzoでtwitterカードを設定する！ 今はこんな感じ… 可愛くない… 可愛くしたい！ ちなみに、twitter上にどう表示されるか？は</description>
+      </item>
+      
+    
+  </channel>
+</rss>

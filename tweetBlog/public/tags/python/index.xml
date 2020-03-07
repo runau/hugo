@@ -1,20 +1,146 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>python on tweet blog</title>
+    <title>Python on tweet blog</title>
     <link>https://encr.jp/blog/tags/python/</link>
-    <description>Recent content in python on tweet blog</description>
+    <description>Recent content in Python on tweet blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <managingEditor>blog@encr.jp (るな)</managingEditor>
     <webMaster>blog@encr.jp (るな)</webMaster>
     <copyright>©{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Sat, 22 Feb 2020 19:51:45 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 07 Mar 2020 12:49:32 +0900</lastBuildDate>
     
         <atom:link href="https://encr.jp/blog/tags/python/index.xml" rel="self" type="application/rss+xml" />
     
     
     
+      
+      <item>
+        <title>ちょっとデータを残したい時 SSM,S3,dynamoDB,SQSどれがいいのか？検証</title>
+        <link>https://encr.jp/blog/posts/20200307_lunch/</link>
+        <pubDate>Sat, 07 Mar 2020 12:49:32 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200307_lunch/</guid>
+        <description>lambdaで変数やステータスを保持しておきたい時、各サービス間のやり取りでパラメータを共有したい時。 別に何でもいいんだけど、何が一番いいの</description>
+      </item>
+      
+      <item>
+        <title>抽選botの作り方</title>
+        <link>https://encr.jp/blog/posts/20200307_morning/</link>
+        <pubDate>Sat, 07 Mar 2020 00:49:32 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200307_morning/</guid>
+        <description>昨日作った抽選botの解説とコード公開します！ 最新のコードはこちら 抽選botの詳細はこちら 仕組み 前回のbotの進化系です。 以下の動作を10分</description>
+      </item>
+      
+      <item>
+        <title>抽選bot利用方法</title>
+        <link>https://encr.jp/blog/posts/20200306_morning/</link>
+        <pubDate>Fri, 06 Mar 2020 07:46:44 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200306_morning/</guid>
+        <description>抽選bot作りました！誰でも使えます。 使い方 企画者が募集ツイートをする。 参加者が募集ツイートに対してリプライする。 botが募集内容に応じた抽</description>
+      </item>
+      
+      <item>
+        <title>dynamoDBを更新するlambdaを作成</title>
+        <link>https://encr.jp/blog/posts/20200304_lunch/</link>
+        <pubDate>Wed, 04 Mar 2020 08:53:21 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200304_lunch/</guid>
+        <description>lambdaでdynamoDBを更新することってよくあるんですが、キーが違ったりすると、毎回コード書着かえたりしないといけなくて…。 めんどく</description>
+      </item>
+      
+      <item>
+        <title>boto3でSNSにtopicとsubscriptionを作ってみた</title>
+        <link>https://encr.jp/blog/posts/20200303_lunch/</link>
+        <pubDate>Tue, 03 Mar 2020 12:49:23 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200303_lunch/</guid>
+        <description>自動予約受付アプリの中で、メールの転送作業が必要で、その転送設定をユーザーに勝手にしてもらいたいので、lambdaで実装する必要があった。 S</description>
+      </item>
+      
+      <item>
+        <title>liffのバージョンをv2.0に上げたら、liffIdが必要になって困った話</title>
+        <link>https://encr.jp/blog/posts/20200302_morning/</link>
+        <pubDate>Mon, 02 Mar 2020 08:54:21 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200302_morning/</guid>
+        <description>liffのバージョンをそろそろ上げないとかなと思って、v2.0にあげてみたら、liff.initにliffIdが必須でした…。 でも、私は一つ</description>
+      </item>
+      
+      <item>
+        <title>ついに！アプリリリース！治療院向け自動予約アプリ</title>
+        <link>https://encr.jp/blog/posts/20200301_morning/</link>
+        <pubDate>Sun, 01 Mar 2020 12:46:48 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200301_morning/</guid>
+        <description>やーっとリリースできました！ 結局全部作り切れずに、一部機能先送りにしてしまいました…。 いやぁ、一日作業してたはずなのに、遅くなった…。 サイト</description>
+      </item>
+      
+      <item>
+        <title>htmlメールを何とかする</title>
+        <link>https://encr.jp/blog/posts/20200229_morning/</link>
+        <pubDate>Sat, 29 Feb 2020 09:57:15 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200229_morning/</guid>
+        <description>昨日の問題解決編 htmlメールをちゃんと読み替える。 今は、なんかこんな感じになっている… テスト本文 -- ○●------------------</description>
+      </item>
+      
+      <item>
+        <title>dockerでマウントする カレンダー連携⑥</title>
+        <link>https://encr.jp/blog/posts/20200227_night/</link>
+        <pubDate>Thu, 27 Feb 2020 21:40:33 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200227_night/</guid>
+        <description>朝、マウント(同期)が上手くいかなかったので、リベンジ windowsのdockerでは/c/xxxを見ていて、 wslでは/c/xxxがマウン</description>
+      </item>
+      
+      <item>
+        <title>dockerのメモリを下げる カレンダー連携⑤</title>
+        <link>https://encr.jp/blog/posts/20200227_morning/</link>
+        <pubDate>Thu, 27 Feb 2020 09:14:21 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200227_morning/</guid>
+        <description>昨日はメモリ不足でdocker動かなかったので、今日はそのリベンジ。 私のPCが7年前のおんぼろのせいで、dockerが要求しているメモリが確</description>
+      </item>
+      
+      <item>
+        <title>次回企画に向けて！抽選する。dynamoと繋ぐ。色々やりたい！ twitterBot⑧</title>
+        <link>https://encr.jp/blog/posts/20200226_morning/</link>
+        <pubDate>Wed, 26 Feb 2020 07:48:19 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200226_morning/</guid>
+        <description>終わりました。Twitterbot企画！ 50人近い方にリプライ頂けて感激でした// で、感想と反省と次回のやりたい事をまとめますww 結果 おはよ</description>
+      </item>
+      
+      <item>
+        <title>googleカレンダー取得スクリプトをlambdaに載せる カレンダー連携③</title>
+        <link>https://encr.jp/blog/posts/20200225_morning/</link>
+        <pubDate>Tue, 25 Feb 2020 09:33:41 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200225_morning/</guid>
+        <description>ついに本題ですw 昨日ローカルから実行したpythonをlambdaに上げていきます！ 前回までの流れはこちら layers作成 昨日pip inst</description>
+      </item>
+      
+      <item>
+        <title>スケジュールを取得する！ カレンダー連携②</title>
+        <link>https://encr.jp/blog/posts/20200224_morning/</link>
+        <pubDate>Mon, 24 Feb 2020 14:16:47 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200224_morning/</guid>
+        <description>昨日は最初の最初で終わってしまったので、今日はなんとしても取得するまで頑張る！！ ひきつづきこちらの記事を元に進めていく。 前回までの流れはこち</description>
+      </item>
+      
+      <item>
+        <title>リツイート企画botを作って twitterBot⑦</title>
+        <link>https://encr.jp/blog/posts/20200223_lunch/</link>
+        <pubDate>Sun, 23 Feb 2020 11:56:36 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200223_lunch/</guid>
+        <description>フォロワー様5000人を記念して、企画botを作りました。 企画ツイートにリプしてくれたら、御礼のリプライと、その人の最近のツイートを3件リツ</description>
+      </item>
       
       <item>
         <title>自動リツイートする！そして完成！ twitterBot⑥</title>
@@ -80,7 +206,7 @@
       </item>
       
       <item>
-        <title>awsでメールサーバーを立てる</title>
+        <title>0円メールサーバー。メールアドレス数無限ww</title>
         <link>https://encr.jp/blog/posts/20200217_night/</link>
         <pubDate>Mon, 17 Feb 2020 07:27:22 +0900</pubDate>
         <author>blog@encr.jp (るな)</author>

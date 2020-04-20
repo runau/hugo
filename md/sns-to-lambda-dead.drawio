@@ -1,0 +1,31 @@
+<mxfile host="www.draw.io" modified="2020-03-25T23:01:37.332Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="UH0Usulqfhvk1rcrMCMw" version="12.8.8" type="github">
+  <diagram id="FXHBhL2skW2fsoHFN0Pb" name="Page-1">
+    <mxGraphModel dx="1024" dy="493" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JpZ2tGvvIAXSE17J--yN-3" value="lambda" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;" parent="1" vertex="1">
+          <mxGeometry x="252" y="70" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="JpZ2tGvvIAXSE17J--yN-4" value="トリガー" style="endArrow=classic;html=1;" parent="1" source="zcSf-R6eLYX6SSCFAuzF-1" target="JpZ2tGvvIAXSE17J--yN-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="178" y="109" as="sourcePoint" />
+            <mxPoint x="240" y="113" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zcSf-R6eLYX6SSCFAuzF-1" value="SNS" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#F34482;gradientDirection=north;fillColor=#BC1356;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sns;" parent="1" vertex="1">
+          <mxGeometry x="98" y="70" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="Xo3wrsyjri3R0AqeJEUa-2" value="SQS" style="outlineConnect=0;fontColor=#232F3E;gradientColor=#F34482;gradientDirection=north;fillColor=#BC1356;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sqs;" parent="1" vertex="1">
+          <mxGeometry x="252" y="200" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="Xo3wrsyjri3R0AqeJEUa-3" value="デッドレター" style="endArrow=classic;html=1;" parent="1" source="zcSf-R6eLYX6SSCFAuzF-1" target="Xo3wrsyjri3R0AqeJEUa-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="186" y="119" as="sourcePoint" />
+            <mxPoint x="262" y="119" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

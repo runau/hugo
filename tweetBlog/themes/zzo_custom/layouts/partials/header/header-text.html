@@ -18,11 +18,14 @@
           {{ range .subtitle }} 
           <div class="site-header__subtitle" style="font-size: {{ $header.subtitleFontSize }}px; {{ with $header.subtitleColor }}color:{{ . }}{{ end }}" data-cursive="{{ with $header.subtitleCursive }}{{ . }}{{ end }}">
             {{ . }}
-            {{ partial "google/adsense_small" . }}
           </div>
           {{ end }}      
         {{ end }}
+      <div style="width: 100%; ">
+        {{ partial "google/adsense_small" . }}
       </div>
+    </div>
+    {{ partial "header/test" . }}
     {{ end }}
   {{ end }}
 {{ end }}

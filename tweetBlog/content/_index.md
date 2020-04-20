@@ -8,12 +8,12 @@ header:
       title:
       - ツイート感覚で適当に書く技術ブログ
       subtitle:
-      - |
-        毎日のただの作業記録をツイートのように書いていきますw
-        一日一記事続けるぞ！！begin:2020/02/12
+      - hugoで作ってs3に載せて、月額運用費5円で運用するブログ。
+      - 毎日のただの作業記録をツイートのように書いていきますw
+      - 一日一記事更新続けるぞ！！since:2020/02/12、69日、112記事目
       titleColor: # #123456, red
       titleShadow: false
-      titleFontSize: 38
+      titleFontSize: 30
       subtitleColor: # #123456, red
       subtitleCursive: false
       subtitleFontSize: 16

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>googleカレンダー on tweet blog</title>
+    <link>https://encr.jp/blog/categories/google%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC/</link>
+    <description>Recent content in googleカレンダー on tweet blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <managingEditor>blog@encr.jp (るな)</managingEditor>
+    <webMaster>blog@encr.jp (るな)</webMaster>
+    <copyright>©{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Fri, 20 Mar 2020 08:29:31 +0900</lastBuildDate>
+    
+        <atom:link href="https://encr.jp/blog/categories/google%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>googleカレンダーを取得するlambdaを作った</title>
+        <link>https://encr.jp/blog/posts/20200320_morning/</link>
+        <pubDate>Fri, 20 Mar 2020 08:29:31 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200320_morning/</guid>
+        <description>googleカレンダー連携のlambda。テスト動作みたいのさせたままで、ちゃんと完成させてなかったから、完成させた！ これまでの流れはこちら ただ、びっくりするほどまとまりがなくて見づらくてしょうがないので、そのうちちゃんと綺麗にします…。 システム構成 環境 lambda:python3.7 前提 GCPでgoogle calendar APIを作っておく</description>
+      </item>
+      
+    
+  </channel>
+</rss>

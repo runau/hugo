@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hugoブログ on tweet blog</title>
+    <link>https://encr.jp/blog/categories/hugo%E3%83%96%E3%83%AD%E3%82%B0/</link>
+    <description>Recent content in hugoブログ on tweet blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <managingEditor>blog@encr.jp (るな)</managingEditor>
+    <webMaster>blog@encr.jp (るな)</webMaster>
+    <copyright>©{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 28 Mar 2020 23:18:51 +0900</lastBuildDate>
+    
+        <atom:link href="https://encr.jp/blog/categories/hugo%E3%83%96%E3%83%AD%E3%82%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>Hugoブログの始め方[超初心者向け]</title>
+        <link>https://encr.jp/blog/posts/20200329_morning/</link>
+        <pubDate>Sat, 28 Mar 2020 23:18:51 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200329_morning/</guid>
+        <description>hugoブログを始めたいっていう非エンジニアの友達のために、hugo開発環境作りのための、超初心者向けの導入記事を書きます。 私の今の環境を書いていきますが、他にも色々な方法があります。 この方法でないとダメって事ではありません。一例としてご覧ください。 環境 versionなど 静的サイトジェネレーター hugo テ</description>
+      </item>
+      
+      <item>
+        <title>amazonアソシエイトをhugoブログに貼る方法</title>
+        <link>https://encr.jp/blog/posts/20200308_night/</link>
+        <pubDate>Sun, 08 Mar 2020 21:59:12 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200308_night/</guid>
+        <description>お昼の記事でamazonアソシエイトの埋め込みがしたかったので、作りました。 タグをhugoブログに貼りたい場合の基本は、{{}}です。 これを使うことで、テーマ内のlayoutsの中のhtmlを呼び出すことができます。 今回はlayouts/shortcodesの中に、以下のファイルを設置します。 1 &amp;lt;iframe style=&amp;#34;width:120px;height:240px;&amp;#34;</description>
+      </item>
+      
+      <item>
+        <title>hugoブログの作り方</title>
+        <link>https://encr.jp/blog/posts/20200305_morning/</link>
+        <pubDate>Thu, 05 Mar 2020 07:36:58 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200305_morning/</guid>
+        <description>とてもありがたいことに、最近、このブログの真似をして、hugoブログを作っているって方が出てきて下さったので、作り方や、カスタマイズの方法をまとめたいと思います。 hugoブログとは？ DBがいらない。アプリケーションサーバーがいらない静的なブログです。 静的サイトジェネレーターと呼ばれる、静的サイトを作</description>
+      </item>
+      
+      <item>
+        <title>hugoブログのサーバーの仕組み　なぜ60円でブログが作れるのか？</title>
+        <link>https://encr.jp/blog/posts/20200223_morning/</link>
+        <pubDate>Sun, 23 Feb 2020 07:26:49 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200223_morning/</guid>
+        <description>今更ですが、このブログの仕組みを解説したいと思います。 このブログはhugoという静的サイトジェネレーターで作られています。 おかけでレンタルサーバーいらずでブログが公開できるんです。 だからサーバーダウンもないし、サーバー費用もない！ 最高// サーバーの話 動的サイト、静的サイトとはなんぞ？という話 動的we</description>
+      </item>
+      
+      <item>
+        <title>lineBot作ったら売れた話</title>
+        <link>https://encr.jp/blog/posts/20200221_night/</link>
+        <pubDate>Fri, 21 Feb 2020 19:15:45 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200221_night/</guid>
+        <description>イベントでLTしてきました。 ちなみにショートコードのうめこみはこちらを参考にさせて頂きました！ 余裕があったら、記事にします！ 今日はこれだけww</description>
+      </item>
+      
+      <item>
+        <title>adsenseがヘッダーに表示されないバグ修正</title>
+        <link>https://encr.jp/blog/posts/20200219_night/</link>
+        <pubDate>Wed, 19 Feb 2020 07:43:04 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200219_night/</guid>
+        <description>adsenseが表示されない… 表示されるところもあるんだけど、ヘッダーとか、表示されない…。 clomeでエラー確認 とりあえず、エラーを確認。 サイズがないって言われてる？ レスポンシブにしてるから、サイズの上限なくて怒られてるのかも？ とりあえずサイズ固定にしてみる とりあえず、サイズ固定にしてみる。 場所の</description>
+      </item>
+      
+      <item>
+        <title>pc版ブログにadsense広告を追加する！</title>
+        <link>https://encr.jp/blog/posts/20200219_morning/</link>
+        <pubDate>Wed, 19 Feb 2020 07:43:03 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200219_morning/</guid>
+        <description>先日adsenseに合格し、自動広告のみ設定しているのですが、ページビュー286に対し、広告表示数が66…。 5回に一回しか表示すらされていないじゃないか… ということで、ヘッダーやサイドバーに広告を追加していきたいと思います。 pcから見たページを確認 こんな感じ この黄色い部分に広告を追加したい！ 広告ユニ</description>
+      </item>
+      
+      <item>
+        <title>画像生成時にリンクを無視する　twitterカード画像自動生成⑦</title>
+        <link>https://encr.jp/blog/posts/20200218_night/</link>
+        <pubDate>Tue, 18 Feb 2020 21:07:29 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200218_night/</guid>
+        <description>前回の記事のアイキャッチがひどい… この文字化けかのごときurl… この画像自動生成は、マークダウンの記事をそのまま出力してるからね… なので、単純な話だけど、urlのリンク([リンクの文字列](ページのリンク))と画像のリンク(![画像の名前](画像のリンク))を正規表現で置き換える。 1 2 3 4 5 base_text = base_text.replace(&amp;#34;\n\n&amp;#34;, &amp;#34;\n&amp;#34;)</description>
+      </item>
+      
+      <item>
+        <title>hugo/zzoブログでadsense審査通ったw</title>
+        <link>https://encr.jp/blog/posts/20200214_night/</link>
+        <pubDate>Fri, 14 Feb 2020 18:51:11 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200214_night/</guid>
+        <description>今日adsense対策しようと思って、とりあえず昨日の夜、無理やり広告タグ貼り付けて審査出すだけだしたんだけど、受かったよねww 昔のブログは30記事近く書いてやっと審査通ったのに… 技術ブログはなかなか丸かぶりな記事ないから、甘いのかな？w とりあえず、やったこととかまとめる hugoのzzoテーマでタグ</description>
+      </item>
+      
+      <item>
+        <title>hugo/zzoのカスタムヘッダーを設定</title>
+        <link>https://encr.jp/blog/posts/20200214_lunch/</link>
+        <pubDate>Fri, 14 Feb 2020 12:22:32 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200214_lunch/</guid>
+        <description>実は昨日も頑張ったんだけど…。 その続き hugo/zzoのタイトルとプロフィールを変更 とりあえず、タイトルは表示されたんだけど、スマホだと見切れてしまうの…。 絶対ダメでしょww カギはやっぱり、_index.mdだと思うんだよね。 昨日いじっても、何も変化なかったし…。 なので、こいつが効くまで頑張る！ エラ</description>
+      </item>
+      
+      <item>
+        <title>ツイートブログの決まり</title>
+        <link>https://encr.jp/blog/posts/20200214_morning/</link>
+        <pubDate>Fri, 14 Feb 2020 07:01:51 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200214_morning/</guid>
+        <description>adsenceやろうかと思ったんだけど、先にツイートブログのルール決めたくて考えたww ツイートブログとは？ ツイート感覚で、適当に書くブログの事 1記事3000文字。 とか 写真たくさん入れる。 とか 読者に読みやすく。 とか 導線が…。 とか考えないで書くブログ Twitterでの作業報告の代わりに書くブログ このルー</description>
+      </item>
+      
+      <item>
+        <title>hugo/zzoのタイトルとプロフィールを変更</title>
+        <link>https://encr.jp/blog/posts/20200213_night/</link>
+        <pubDate>Thu, 13 Feb 2020 20:19:51 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200213_night/</guid>
+        <description>zzoのヘッダーを変える いまはこんな感じ なぜかタイトルがzzo… タイトルとロゴくらいは変えないとねww Hugo Themes customizing custom header You may want to change home page header. There are 4 options which is slider, image, text, empty. Set param at config/_default/params.toml(homeHeaderType) Make _index.md file at root/content/_index.md and copy &amp;amp; paste below. params.tomlの設定と、content/_index.mdの追加をしていきます。 params.tomlの設定 ん？ 4つ</description>
+      </item>
+      
+      <item>
+        <title>hugo/zzoに独自のfaviconを設定</title>
+        <link>https://encr.jp/blog/posts/20200213_lunch/</link>
+        <pubDate>Thu, 13 Feb 2020 12:41:12 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200213_lunch/</guid>
+        <description>とりあえずzzo動くようになったけど、プロフィールとかもテンプレのままなので、修正する favicon設定 まず、favicon変える。 せっかく作ってもらったからね！使いたい♡ Hugo Themes favicon 言われた通りに設定していく。 朝は気づかなかったけど、こんなに分かりやすい公式ページがあったみたいww If you want to support mobile favicon, use favicon-generator. Make favicons</description>
+      </item>
+      
+      <item>
+        <title>hugoのテーマをzzoに変えてみる</title>
+        <link>https://encr.jp/blog/posts/20200213_morning/</link>
+        <pubDate>Thu, 13 Feb 2020 08:05:28 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200213_morning/</guid>
+        <description>ワードプレスもそうだけど、色々テンプレデザインが落ちてるのはいいよねww anankeいいんだけど、もう少しおしゃれにしたいから、可愛いのに変えていく！ ブログっぽくて、多少のカスタマイズが効きそうなものを探すことにした。 ここから好きなデザインを探す！ hugo公式サイトのデザイン集 zzo この、ザ、ブログって</description>
+      </item>
+      
+      <item>
+        <title>hugo初期設定と戦ってみる</title>
+        <link>https://encr.jp/blog/posts/20200212_lunch/</link>
+        <pubDate>Wed, 12 Feb 2020 12:01:00 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200212_lunch/</guid>
+        <description>hugo初期設定との戦い ミスドランチをしながら、30分で頑張る！ 記事出てこない問題 hugo new posts/20200212_morning.md して、記事ページは作られてるんだけど、 hugo server -D すると、ちゃんと記事出てくるんだけど、 hugo -t ananke デプロイすると、記事がない… draft: true 記事ページのヘッダーにこいつがいたせいだった。 下書きって意味らしく、これが付いていると、デプ</description>
+      </item>
+      
+      <item>
+        <title>hugoでつぶやきブログ作った</title>
+        <link>https://encr.jp/blog/posts/20200212_morning/</link>
+        <pubDate>Wed, 12 Feb 2020 08:42:53 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200212_morning/</guid>
+        <description>ブログ作った Twitterで今日の積み上げとかやるけど、残らないし、twitterだと細かいこと書けないし、ブログにした やった事とか、困ったこととか、ツイート感覚で書いていこうと思う！ hugoって？ ブログを静的に作れるすごい奴 しかも、記事をマークダウンで書ける！ 作り方 https://dev.classmethod.jp/cloud/hugo-s3/ これをそのままやった 一部こっち</description>
+      </item>
+      
+    
+  </channel>
+</rss>

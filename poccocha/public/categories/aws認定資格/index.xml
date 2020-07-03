@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>aws認定資格 on tweet blog</title>
+    <link>https://encr.jp/blog/categories/aws%E8%AA%8D%E5%AE%9A%E8%B3%87%E6%A0%BC/</link>
+    <description>Recent content in aws認定資格 on tweet blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <managingEditor>blog@encr.jp (るな)</managingEditor>
+    <webMaster>blog@encr.jp (るな)</webMaster>
+    <copyright>©{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Mon, 09 Mar 2020 09:54:40 +0900</lastBuildDate>
+    
+        <atom:link href="https://encr.jp/blog/categories/aws%E8%AA%8D%E5%AE%9A%E8%B3%87%E6%A0%BC/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>EFSの10分チュートリアルに挑戦</title>
+        <link>https://encr.jp/blog/posts/20200309_morning/</link>
+        <pubDate>Mon, 09 Mar 2020 09:54:40 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200309_morning/</guid>
+        <description>EFSが前々分からなかったので、10分チュートリアルをやってみた ちなみに、記事書きながらっていうのもあるけど、1時間くらいかかりましたww 「Amazon Elastic File System (EFS) を使用してNetwork File System を作成する」ってやつ EFSを使った事がない方は、EFSを開くと↓のような画面になります。 その、「入門ガイド」から</description>
+      </item>
+      
+      <item>
+        <title>awsソリューションアーキテクトの勉強を始めてみた</title>
+        <link>https://encr.jp/blog/posts/20200308_lunch/</link>
+        <pubDate>Sun, 08 Mar 2020 12:59:12 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200308_lunch/</guid>
+        <description>awsはじめて4カ月。そろそろちゃんと資格でも取ろうかなと、一番簡単そうなところから始めることにしました！ aws認定資格について ※AWS認定資格試験テキスト AWS認定 ソリューションアーキテクト-アソシエイトから引用 こんな感じで、↑の図の10個＋「AWS 認定 Alexa スキルビルダー – 専門知識」で、全部で11個</description>
+      </item>
+      
+    
+  </channel>
+</rss>

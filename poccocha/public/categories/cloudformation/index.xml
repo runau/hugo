@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cloudFormation on tweet blog</title>
+    <link>https://encr.jp/blog/categories/cloudformation/</link>
+    <description>Recent content in cloudFormation on tweet blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <managingEditor>blog@encr.jp (るな)</managingEditor>
+    <webMaster>blog@encr.jp (るな)</webMaster>
+    <copyright>©{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Tue, 31 Mar 2020 18:29:11 +0900</lastBuildDate>
+    
+        <atom:link href="https://encr.jp/blog/categories/cloudformation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+      
+      <item>
+        <title>templateのtemplateを作る！</title>
+        <link>https://encr.jp/blog/posts/20200331_night/</link>
+        <pubDate>Tue, 31 Mar 2020 18:29:11 +0900</pubDate>
+        <author>blog@encr.jp (るな)</author>
+        <guid>https://encr.jp/blog/posts/20200331_night/</guid>
+        <description>cloudFormationのtemplateが500行を超えてきて、圧倒的に見づらいし、整備もしにくいので、綺麗に簡単に使う方法を考えた。 結論 templateのtemplate最強説！ 例えばこのlinebotの構成なら、templateのtemplateを三つ作り、色ごとに作ったものを使いまわす！</description>
+      </item>
+      
+    
+  </channel>
+</rss>

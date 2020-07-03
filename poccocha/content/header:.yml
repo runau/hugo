@@ -1,4 +1,3 @@
----
 header:
     - type: text
       height: 200
@@ -6,16 +5,14 @@ header:
       paddingY: 0
       align: center
       title:
-      - ツイート感覚で適当に書く技術ブログ
+      - tweet blog//
       subtitle:
-      - hugoで作ってs3に載せて、月額運用費5円で運用するブログ。
-      - 毎日のただの作業記録をツイートのように書いていきますw
-      - 一日一記事更新続けるぞ！！since:2020/02/12、69日、114記事目
+      - ツイート感覚で書く技術ブログ
       titleColor: # #123456, red
       titleShadow: false
-      titleFontSize: 30
+      titleFontSize: 44
       subtitleColor: # #123456, red
-      subtitleCursive: false
+      subtitleCursive: true
       subtitleFontSize: 16
       spaceBetweenTitleSubtitle: 20
       
@@ -96,4 +93,3 @@ header:
         subtitleFontSize: 16
         spaceBetweenTitleSubtitle: 20
     
----

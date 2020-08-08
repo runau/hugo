@@ -10,7 +10,7 @@ header:
       subtitle:
       - hugoで作ってs3に載せて、月額運用費5円で運用するブログ。
       - 毎日のただの作業記録をツイートのように書いていきますw
-      - 一日一記事更新続けるぞ！！since:2020/02/12、69日、114記事目
+      - 一日一記事更新続けるぞ！！since:2020/02/12、144日、116記事目
       titleColor: # #123456, red
       titleShadow: false
       titleFontSize: 30
